@@ -1,0 +1,14 @@
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\obj\Debug\net8.0\T1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\obj\Debug\net8.0\T1.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\obj\Debug\net8.0\T1.AssemblyInfo.cs
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\obj\Debug\net8.0\T1.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\bin\Debug\net8.0\T1.exe
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\bin\Debug\net8.0\T1.deps.json
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\bin\Debug\net8.0\T1.runtimeconfig.json
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\bin\Debug\net8.0\T1.dll
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\bin\Debug\net8.0\T1.pdb
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\obj\Debug\net8.0\T1.dll
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\obj\Debug\net8.0\refint\T1.dll
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\obj\Debug\net8.0\T1.pdb
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\obj\Debug\net8.0\T1.genruntimeconfig.cache
+C:\Users\acer\source\repos\Laborator_C#_1\Laborator_C#_1\obj\Debug\net8.0\ref\T1.dll

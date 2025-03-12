@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\acer\\source\\repos\\Laborator_C#_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5915E1-043F-4076-9BAD-028880E1366B}|Laborator_C#_1\\T1.csproj|c:\\users\\acer\\source\\repos\\laborator_c#_1\\laborator_c#_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5915E1-043F-4076-9BAD-028880E1366B}|Laborator_C#_1\\T1.csproj|solutionrelative:laborator_c#_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5915E1-043F-4076-9BAD-028880E1366B}|Laborator_C#_1\\T1.csproj|c:\\users\\acer\\source\\repos\\laborator_c#_1\\laborator_c#_1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5915E1-043F-4076-9BAD-028880E1366B}|Laborator_C#_1\\T1.csproj|solutionrelative:laborator_c#_1\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Laborator_C#_1\\Laborator_C#_1\\Product.cs",
+              "RelativeDocumentMoniker": "Laborator_C#_1\\Product.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Laborator_C#_1\\Laborator_C#_1\\Product.cs",
+              "RelativeToolTip": "Laborator_C#_1\\Product.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T13:52:14.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Laborator_C#_1\\Laborator_C#_1\\Program.cs",
+              "RelativeDocumentMoniker": "Laborator_C#_1\\Program.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Laborator_C#_1\\Laborator_C#_1\\Program.cs",
+              "RelativeToolTip": "Laborator_C#_1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T13:45:23.265Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
