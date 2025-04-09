@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{185D120F-36C7-4E16-9C0F-B01FFDCA187C}|Laboratorna_3\\Laboratorna_3.csproj|c:\\users\\acer\\source\\repos\\laboratorna_3\\laboratorna_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185D120F-36C7-4E16-9C0F-B01FFDCA187C}|Laboratorna_3\\Laboratorna_3.csproj|solutionrelative:laboratorna_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185D120F-36C7-4E16-9C0F-B01FFDCA187C}|Laboratorna_3\\Laboratorna_3.csproj|c:\\users\\acer\\source\\repos\\laboratorna_3\\laboratorna_3\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185D120F-36C7-4E16-9C0F-B01FFDCA187C}|Laboratorna_3\\Laboratorna_3.csproj|solutionrelative:laboratorna_3\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185D120F-36C7-4E16-9C0F-B01FFDCA187C}|Laboratorna_3\\Laboratorna_3.csproj|c:\\users\\acer\\source\\repos\\laboratorna_3\\laboratorna_3\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185D120F-36C7-4E16-9C0F-B01FFDCA187C}|Laboratorna_3\\Laboratorna_3.csproj|solutionrelative:laboratorna_3\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185D120F-36C7-4E16-9C0F-B01FFDCA187C}|Laboratorna_3\\Laboratorna_3.csproj|c:\\users\\acer\\source\\repos\\laboratorna_3\\laboratorna_3\\breakablewall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185D120F-36C7-4E16-9C0F-B01FFDCA187C}|Laboratorna_3\\Laboratorna_3.csproj|solutionrelative:laboratorna_3\\breakablewall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185D120F-36C7-4E16-9C0F-B01FFDCA187C}|Laboratorna_3\\Laboratorna_3.csproj|c:\\users\\acer\\source\\repos\\laboratorna_3\\laboratorna_3\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185D120F-36C7-4E16-9C0F-B01FFDCA187C}|Laboratorna_3\\Laboratorna_3.csproj|solutionrelative:laboratorna_3\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{185D120F-36C7-4E16-9C0F-B01FFDCA187C}|Laboratorna_3\\Laboratorna_3.csproj|c:\\users\\acer\\source\\repos\\laboratorna_3\\laboratorna_3\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{185D120F-36C7-4E16-9C0F-B01FFDCA187C}|Laboratorna_3\\Laboratorna_3.csproj|solutionrelative:laboratorna_3\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BreakableWall.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\Laboratorna_3\\BreakableWall.cs",
+              "RelativeDocumentMoniker": "Laboratorna_3\\BreakableWall.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\Laboratorna_3\\BreakableWall.cs",
+              "RelativeToolTip": "Laboratorna_3\\BreakableWall.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:16:26.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\Laboratorna_3\\Enemy.cs",
+              "RelativeDocumentMoniker": "Laboratorna_3\\Enemy.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\Laboratorna_3\\Enemy.cs",
+              "RelativeToolTip": "Laboratorna_3\\Enemy.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:15:54.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\Laboratorna_3\\Bullet.cs",
+              "RelativeDocumentMoniker": "Laboratorna_3\\Bullet.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\Laboratorna_3\\Bullet.cs",
+              "RelativeToolTip": "Laboratorna_3\\Bullet.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:15:17.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\Laboratorna_3\\Projectile.cs",
+              "RelativeDocumentMoniker": "Laboratorna_3\\Projectile.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\Laboratorna_3\\Projectile.cs",
+              "RelativeToolTip": "Laboratorna_3\\Projectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:14:43.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IDamageable.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\Laboratorna_3\\IDamageable.cs",
+              "RelativeDocumentMoniker": "Laboratorna_3\\IDamageable.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\Laboratorna_3\\IDamageable.cs",
+              "RelativeToolTip": "Laboratorna_3\\IDamageable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:13:45.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\Laboratorna_3\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorna_3\\Program.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\Laboratorna_3\\Laboratorna_3\\Program.cs",
+              "RelativeToolTip": "Laboratorna_3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T12:56:08.251Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
