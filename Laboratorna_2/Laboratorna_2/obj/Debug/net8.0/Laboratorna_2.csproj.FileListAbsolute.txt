@@ -1,0 +1,14 @@
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\bin\Debug\net8.0\Laboratorna_2.exe
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\bin\Debug\net8.0\Laboratorna_2.deps.json
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\bin\Debug\net8.0\Laboratorna_2.runtimeconfig.json
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\bin\Debug\net8.0\Laboratorna_2.dll
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\bin\Debug\net8.0\Laboratorna_2.pdb
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\obj\Debug\net8.0\Laboratorna_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\obj\Debug\net8.0\Laboratorna_2.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\obj\Debug\net8.0\Laboratorna_2.AssemblyInfo.cs
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\obj\Debug\net8.0\Laboratorna_2.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\obj\Debug\net8.0\Laboratorna_2.dll
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\obj\Debug\net8.0\refint\Laboratorna_2.dll
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\obj\Debug\net8.0\Laboratorna_2.pdb
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\obj\Debug\net8.0\Laboratorna_2.genruntimeconfig.cache
+C:\Users\acer\source\repos\Laboratorna_2\Laboratorna_2\obj\Debug\net8.0\ref\Laboratorna_2.dll
