@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\booking.html",
+      "PackagePath": "staticwebassets\\booking.html"
+    },
+    {
+      "Id": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\images\\logo_web_page.png",
+      "PackagePath": "staticwebassets\\images\\logo_web_page.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\images\\room201.jpg",
+      "PackagePath": "staticwebassets\\images\\room201.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\images\\room202.jpg",
+      "PackagePath": "staticwebassets\\images\\room202.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\images\\room203.jpg",
+      "PackagePath": "staticwebassets\\images\\room203.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\images\\room204.jpg",
+      "PackagePath": "staticwebassets\\images\\room204.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\images\\room301.jpg",
+      "PackagePath": "staticwebassets\\images\\room301.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\images\\room302.jpg",
+      "PackagePath": "staticwebassets\\images\\room302.jpg"
+    },
+    {
+      "Id": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\rooms.html",
+      "PackagePath": "staticwebassets\\rooms.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HotelApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HotelApi.props",
+      "PackagePath": "build\\HotelApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HotelApi.props",
+      "PackagePath": "buildMultiTargeting\\HotelApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HotelApi.props",
+      "PackagePath": "buildTransitive\\HotelApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

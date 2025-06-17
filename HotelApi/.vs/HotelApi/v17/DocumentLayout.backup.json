@@ -1,0 +1,347 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\acer\\source\\repos\\HotelApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\models\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\models\\hoteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\wwwroot\\booking.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\wwwroot\\booking.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\models\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\models\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\models\\bookingdtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\models\\bookingdtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\models\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\models\\hotelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\migrations\\20250421205639_addroomtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\migrations\\20250421205639_addroomtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\wwwroot\\rooms.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\wwwroot\\rooms.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|c:\\users\\acer\\source\\repos\\hotelapi\\hotelapi\\services\\availabilityrecalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD529B-AF0D-4A6C-8BD6-025599627A63}|HotelApi\\HotelApi.csproj|solutionrelative:hotelapi\\services\\availabilityrecalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "HotelApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\WeatherForecast.cs",
+              "RelativeToolTip": "HotelApi\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T14:35:24.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\ClientService.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Models\\ClientService.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\ClientService.cs",
+              "RelativeToolTip": "HotelApi\\Models\\ClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T14:35:15.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AvailabilityRecalculationService.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Services\\AvailabilityRecalculationService.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Services\\AvailabilityRecalculationService.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Services\\AvailabilityRecalculationService.cs",
+              "RelativeToolTip": "HotelApi\\Services\\AvailabilityRecalculationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:05:07.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "HotelApi\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\index.html",
+              "RelativeToolTip": "HotelApi\\wwwroot\\index.html",
+              "ViewState": "AgIAALAAAAAAAAAAAABRwMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-20T22:15:25.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Models\\Service.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\Service.cs",
+              "RelativeToolTip": "HotelApi\\Models\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T21:43:49.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookingDtocs.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\BookingDtocs.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Models\\BookingDtocs.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\BookingDtocs.cs",
+              "RelativeToolTip": "HotelApi\\Models\\BookingDtocs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T21:18:22.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "rooms.html",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\rooms.html",
+              "RelativeDocumentMoniker": "HotelApi\\wwwroot\\rooms.html",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\rooms.html",
+              "RelativeToolTip": "HotelApi\\wwwroot\\rooms.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPcAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-10T12:15:55.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "booking.html",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\booking.html",
+              "RelativeDocumentMoniker": "HotelApi\\wwwroot\\booking.html",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\wwwroot\\booking.html",
+              "RelativeToolTip": "HotelApi\\wwwroot\\booking.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-05T17:12:40.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\Booking.cs",
+              "RelativeToolTip": "HotelApi\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T22:49:18.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "HotelApi\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:22:19.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "HotelApi\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswGMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:21:55.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "HotelApi\\Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:18:16.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HotelDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\HotelDbContext.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Models\\HotelDbContext.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\HotelDbContext.cs",
+              "RelativeToolTip": "HotelApi\\Models\\HotelDbContext.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T12:41:31.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250421205639_AddRoomTable.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Migrations\\20250421205639_AddRoomTable.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Migrations\\20250421205639_AddRoomTable.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Migrations\\20250421205639_AddRoomTable.cs",
+              "RelativeToolTip": "HotelApi\\Migrations\\20250421205639_AddRoomTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T20:56:39.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\Room.cs",
+              "RelativeToolTip": "HotelApi\\Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T20:55:15.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Program.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Program.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Program.cs",
+              "RelativeToolTip": "HotelApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T20:43:50.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HotelContext.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\HotelContext.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Models\\HotelContext.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\HotelContext.cs",
+              "RelativeToolTip": "HotelApi\\Models\\HotelContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T20:40:21.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "HotelApi\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\Models\\Client.cs",
+              "RelativeToolTip": "HotelApi\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T20:39:54.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\HotelApi\\HotelApi\\appsettings.json",
+              "RelativeToolTip": "HotelApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-21T20:37:48.261Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

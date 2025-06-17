@@ -1,0 +1,369 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <title>Бронювання | Sugar Hotel</title>
+    <link rel="icon" href="images/logo_web_page.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #f5efe6;
+            color: #3a2d1c;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+            .header-left img {
+                height: 60px;
+                width: auto;
+                margin-right: 20px;
+            }
+
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        .cancel-btn {
+            background: none;
+            border: none;
+            color: #b58b49;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: underline;
+            font-size: 0.95rem;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+            padding: 30px;
+        }
+
+        .back-button {
+            margin-bottom: 20px;
+            background: none;
+            border: none;
+            color: #b58b49;
+            font-size: 1rem;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: underline;
+            transition: color 0.3s ease, text-decoration-color 0.3s ease;
+        }
+
+            .back-button:hover {
+                color: #a2783f;
+                text-decoration-color: #a2783f;
+            }
+
+        form label {
+            display: block;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        form input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        #totalPrice {
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        button[type="submit"] {
+            background-color: #b58b49;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-weight: bold;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+            button[type="submit"]:hover {
+                background-color: #a2783f;
+            }
+
+        ul#bookedDatesList {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+
+            ul#bookedDatesList li {
+                margin-bottom: 6px;
+            }
+
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 10% auto;
+            padding: 20px 30px;
+            border: 1px solid #888;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 400px;
+            position: relative;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        }
+
+        .close {
+            color: #aaa;
+            position: absolute;
+            top: 10px;
+            right: 16px;
+            font-size: 24px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+            .close:hover {
+                color: #555;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-left">
+            <a href="index.html">
+                <img src="logo.png" alt="Sugar Hotel Logo">
+            </a>
+            <h1>Бронювання</h1>
+        </div>
+        <button class="cancel-btn" onclick="openModal()">Потрібно скасувати бронювання?</button>
+    </div>
+
+    <div class="container">
+        <button class="back-button" onclick="window.location.href='rooms.html'">← Назад до списку кімнат</button>
+
+        <form id="bookingForm">
+            <input type="hidden" name="roomId" id="roomIdInput" required />
+
+            <label>
+                ПІБ клієнта:
+                <input type="text" name="fullName" required />
+            </label>
+
+            <label>
+                Email:
+                <input type="email" name="email" required />
+            </label>
+
+            <label>
+                Телефон:
+                <input type="tel" name="phone" required />
+            </label>
+
+            <label>
+                Дата заїзду:
+                <input type="date" name="checkInDate" required />
+            </label>
+
+            <label>
+                Дата виїзду:
+                <input type="date" name="checkOutDate" required />
+            </label>
+
+            <p id="totalPrice">Загальна вартість: — грн</p>
+
+            <button type="submit">Забронювати</button>
+        </form>
+
+        <h2>Зайняті дати для цієї кімнати:</h2>
+        <ul id="bookedDatesList"></ul>
+    </div>
+
+    <!-- Modal -->
+    <div id="cancelModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3>Скасування бронювання</h3>
+            <p>Якщо потрібно скасувати бронювання в нашому готелі — просто зв'яжіться з нами!</p>
+            <ul>
+                <li>+38 (067) 123-45-67</li>
+                <li>+38 (050) 987-65-43</li>
+                <li>Email: help@sugarhotel.fake</li>
+            </ul>
+            <p>
+                <strong>Графік служби підтримки:</strong><br>
+                Пн-Пт: 8:00 - 20:00<br>
+                Сб-Нд: 9:30 - 19:00
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('bookingForm');
+        const urlParams = new URLSearchParams(window.location.search);
+        const roomIdFromUrl = urlParams.get('roomId');
+        let roomPricePerDay = null;
+
+        if (roomIdFromUrl) {
+            document.addEventListener('DOMContentLoaded', async () => {
+                form.roomId.value = roomIdFromUrl;
+
+                await fetchRoomPrice(roomIdFromUrl);
+                loadBookedDates(parseInt(roomIdFromUrl));
+
+                const today = new Date();
+                const maxDate = new Date();
+                maxDate.setMonth(today.getMonth() + 1);
+                const toISO = date => date.toISOString().split('T')[0];
+                form.checkInDate.min = toISO(today);
+                form.checkInDate.max = toISO(maxDate);
+                form.checkOutDate.min = toISO(today);
+                form.checkOutDate.max = toISO(maxDate);
+            });
+        }
+
+        async function fetchRoomPrice(roomId) {
+            const res = await fetch(`/api/rooms/${roomId}`);
+            if (res.ok) {
+                const room = await res.json();
+                roomPricePerDay = room.price;
+            }
+        }
+
+        function updateTotalPrice() {
+            const checkIn = new Date(form.checkInDate.value);
+            const checkOut = new Date(form.checkOutDate.value);
+            const totalPriceElement = document.getElementById('totalPrice');
+
+            if (isNaN(checkIn) || isNaN(checkOut) || !roomPricePerDay) {
+                totalPriceElement.textContent = "Загальна вартість: — грн";
+                return;
+            }
+
+            const timeDiff = checkOut - checkIn;
+            const days = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+
+            if (days > 0) {
+                const total = days * roomPricePerDay;
+                totalPriceElement.textContent = `Загальна вартість: ${total} грн`;
+            } else {
+                totalPriceElement.textContent = "Загальна вартість: — грн";
+            }
+        }
+
+        form.checkInDate.addEventListener('change', updateTotalPrice);
+        form.checkOutDate.addEventListener('change', updateTotalPrice);
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const checkIn = new Date(form.checkInDate.value);
+            const checkOut = new Date(form.checkOutDate.value);
+
+            if (checkOut <= checkIn) {
+                alert("Мінімальне бронювання — 1 доба. Дата виїзду повинна бути пізніше за дату заїзду.");
+                return;
+            }
+
+            const data = {
+                roomId: parseInt(form.roomId.value),
+                fullName: form.fullName.value.trim(),
+                email: form.email.value.trim(),
+                phone: form.phone.value.trim(),
+                checkInDate: form.checkInDate.value,
+                checkOutDate: form.checkOutDate.value
+            };
+
+            const response = await fetch('/api/bookings', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+
+            if (response.ok) {
+                alert("Бронювання створено!");
+                loadBookedDates(data.roomId);
+                form.reset();
+                form.roomId.value = roomIdFromUrl;
+                document.getElementById('totalPrice').textContent = "Загальна вартість: — грн";
+            } else {
+                const error = await response.text();
+                alert("Помилка: " + error);
+            }
+        });
+
+        async function loadBookedDates(roomId) {
+            const list = document.getElementById('bookedDatesList');
+            list.innerHTML = "";
+
+            const res = await fetch(`/api/bookings/room-dates/${roomId}`);
+            if (!res.ok) {
+                list.innerHTML = "<li>Не вдалося завантажити дати</li>";
+                return;
+            }
+
+            const data = await res.json();
+            if (data.length === 0) {
+                list.innerHTML = "<li>Немає бронювань</li>";
+                return;
+            }
+
+            data.forEach(d => {
+                const li = document.createElement('li');
+                li.textContent = `З ${d.checkInDate} по ${d.checkOutDate}`;
+                list.appendChild(li);
+            });
+        }
+
+        // Modal open/close functions
+        function openModal() {
+            document.getElementById('cancelModal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('cancelModal').style.display = 'none';
+        }
+
+        window.onclick = function (event) {
+            const modal = document.getElementById('cancelModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

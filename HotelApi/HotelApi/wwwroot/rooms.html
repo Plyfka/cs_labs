@@ -1,0 +1,341 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Список кімнат | Sugar Hotel</title>
+    <link rel="icon" href="images/logo_web_page.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #f5efe6;
+            color: #3a2d1c;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+            .header a {
+                margin-right: 20px;
+            }
+
+            .header img {
+                height: 60px;
+            }
+
+            .header h1 {
+                font-family: 'Playfair Display', serif;
+                font-size: 2.2rem;
+                margin: 0;
+            }
+
+        .content {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .checkbox-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            background-color: #fff;
+            padding: 10px 14px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: background 0.3s;
+        }
+
+            .checkbox-wrapper:hover {
+                background-color: #f0e7d9;
+            }
+
+            .checkbox-wrapper input[type="checkbox"] {
+                transform: scale(1.2);
+                accent-color: #b58b49;
+                cursor: pointer;
+            }
+
+        .rooms-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .room-card {
+            display: flex;
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+            padding: 20px;
+            align-items: flex-start;
+            animation: fadeInUp 0.5s ease forwards;
+            opacity: 0;
+            transition: transform 0.2s ease;
+        }
+
+            .room-card:hover {
+                transform: scale(1.01);
+            }
+
+        .room-image {
+            width: 160px;
+            height: 110px;
+            border-radius: 12px;
+            object-fit: cover;
+            margin-right: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .room-info {
+            flex-grow: 1;
+        }
+
+            .room-info h3 {
+                margin: 0 0 10px;
+                font-size: 1.2rem;
+            }
+
+            .room-info p {
+                margin: 4px 0;
+            }
+
+        .available {
+            color: #2e7d32;
+            font-weight: bold;
+        }
+
+        .unavailable {
+            color: #c62828;
+            font-weight: bold;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #b58b49;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background-color 0.3s ease;
+            margin-right: 10px;
+        }
+
+            .btn:hover {
+                background-color: #a2783f;
+            }
+
+            .btn.active {
+                background-color: #3a2d1c;
+            }
+
+            .btn:disabled {
+                background-color: #cccccc;
+                color: #666666;
+                cursor: not-allowed;
+            }
+
+        .description {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+            background-color: #f9f4ec;
+            border-left: 4px solid #b58b49;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            color: #444;
+            line-height: 1.6;
+            padding: 0 16px;
+            margin-top: 0;
+        }
+
+            .description.active {
+                max-height: 400px;
+                padding: 12px 16px;
+                margin-top: 15px;
+            }
+
+        @media (max-width: 768px) {
+            .room-card {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .room-image {
+                width: 100%;
+                height: 160px;
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+
+            .btn {
+                width: auto;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">
+            <img src="logo.png" alt="Sugar Hotel Logo">
+        </a>
+        <h1>Номери Sugar Hotel</h1>
+    </div>
+
+    <div class="content">
+        <div class="controls">
+            <div class="filters">
+                <button class="btn" onclick="filterRooms('all', this)">Без фільтру</button>
+                <button class="btn" onclick="filterRooms('Стандарт', this)">Стандарт</button>
+                <button class="btn" onclick="filterRooms('Люкс', this)">Люкс</button>
+            </div>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="availableOnlyCheckbox" onchange="renderRooms()">
+                <label for="availableOnlyCheckbox">Тільки вільні кімнати</label>
+            </div>
+            <button id="sortBtn" class="btn sort-btn" onclick="toggleSort()">Ціна: ↑ (від дешевих)</button>
+        </div>
+        <div id="roomsContainer" class="rooms-grid"></div>
+    </div>
+
+    <script>
+        let allRooms = [];
+        let currentFilter = 'all';
+        let sortAscending = true;
+        let openedDescId = null;
+
+        const roomDescriptions = {
+            201: "Цей номер типу 'Стандарт' обладнаний зручним двоспальним ліжком, письмовим столом та міні-баром.",
+            202: "Сонячна кімната з видом на двір і балконом. Оптимальний вибір для пар.",
+            203: "Просторий номер з двома окремими ліжками, зона відпочинку і письмовий стіл.",
+            204: "Класичний номер з двомістним ліжком, кондіционером та невеличким телевізором. Затишок, який доступний кожному!",
+            301: "Розкішний люкс з окремою спальнею, вітальнею та джакузі.",
+            302: "Елітний люкс з панорамним видом, великим ліжком і зоною для обідів."
+        };
+
+        async function loadRooms() {
+            try {
+                const response = await fetch('/api/rooms');
+                allRooms = await response.json();
+                filterRooms('all', document.querySelector('.filters .btn'));
+            } catch (error) {
+                console.error('Помилка завантаження кімнат:', error);
+            }
+        }
+
+        function filterRooms(type, clickedButton) {
+            currentFilter = type;
+            document.querySelectorAll('.filters .btn').forEach(btn => btn.classList.remove('active'));
+            clickedButton.classList.add('active');
+            renderRooms();
+        }
+
+        function toggleSort() {
+            sortAscending = !sortAscending;
+            document.getElementById('sortBtn').textContent = sortAscending ? 'Ціна: ↑ (від дешевих)' : 'Ціна: ↓ (від дорогих)';
+            renderRooms();
+        }
+
+        function toggleDescription(id) {
+            if (openedDescId && openedDescId !== id) {
+                const prevDesc = document.getElementById(`desc-${openedDescId}`);
+                const prevBtn = document.getElementById(`descBtn-${openedDescId}`);
+                if (prevDesc && prevBtn) {
+                    prevDesc.classList.remove('active');
+                    prevBtn.textContent = 'Дізнатись більше';
+                }
+            }
+
+            const desc = document.getElementById(`desc-${id}`);
+            const btn = document.getElementById(`descBtn-${id}`);
+            const isVisible = desc.classList.toggle('active');
+            btn.textContent = isVisible ? 'Згорнути' : 'Дізнатись більше';
+            openedDescId = isVisible ? id : null;
+        }
+
+        function renderRooms() {
+            const container = document.getElementById('roomsContainer');
+            container.innerHTML = '';
+
+            const showOnlyAvailable = document.getElementById('availableOnlyCheckbox').checked;
+
+            let filteredRooms = currentFilter === 'all'
+                ? [...allRooms]
+                : allRooms.filter(r => r.type === currentFilter);
+
+            if (showOnlyAvailable) {
+                filteredRooms = filteredRooms.filter(r => r.isAvailable);
+            }
+
+            filteredRooms.sort((a, b) => sortAscending ? a.price - b.price : b.price - a.price);
+
+            filteredRooms.forEach(room => {
+                const timestamp = new Date().getTime(); // або room.lastModified, якщо є
+                const imagePath = `images/room${room.roomNumber}.jpg?v=${timestamp}`;
+                const card = document.createElement('div');
+                card.className = 'room-card';
+                card.innerHTML = `
+              <img src="${imagePath}" alt="Фото кімнати" class="room-image">
+              <div class="room-info">
+                <h3>№${room.roomNumber} – ${room.type}</h3>
+                <p><strong>Ціна:</strong> ${room.price} грн</p>
+                <p class="${room.isAvailable ? 'available' : 'unavailable'}">
+                  ${room.isAvailable ? 'Доступна' : 'Зайнята'}
+                </p>
+                <button class="btn" ${!room.isAvailable ? 'disabled' : ''} onclick="location.href='booking.html?roomId=${room.roomId}'">
+                  Забронювати
+                </button>
+                <button class="btn" id="descBtn-${room.roomId}" onclick="toggleDescription(${room.roomId})">
+                  Дізнатись більше
+                </button>
+                <div class="description" id="desc-${room.roomId}">
+                  ${roomDescriptions[room.roomNumber] || 'Опис відсутній.'}
+                </div>
+              </div>
+            `;
+                container.appendChild(card);
+            });
+        }
+
+
+        loadRooms();
+    </script>
+</body>
+</html>
